@@ -62,7 +62,6 @@ class GarbageSortingSystem:
         
         while True:
             # 读取下位机状态
-            #self.display.show()
             state = self.comm.ReadState()
             
             if state == "Start":
